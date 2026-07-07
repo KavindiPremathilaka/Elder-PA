@@ -1,0 +1,52 @@
+.navbar{
+  height:90px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:0 120px;
+}
+
+.logo{
+  font-size:52px;
+  font-weight:700;
+  color:#73E0D1;
+}
+
+.logo span{
+  color:#874185;
+}
+
+.nav-links{
+  display:flex;
+  gap:45px;
+
+  list-style:none;
+
+  font-size:16px;
+  color:#222;
+}
+
+.nav-right{
+  display:flex;
+  align-items:center;
+  gap:25px;
+}
+
+.login-link{
+  color:#874185;
+  font-size:16px;
+}
+
+.career-btn{
+  background:#874185;
+  color:white;
+
+  width:150px;
+  height:52px;
+
+  border-radius:6px;
+
+  font-size:15px;
+}

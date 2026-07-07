@@ -1,0 +1,59 @@
+.epa-section{
+  height:520px;
+
+  background:#F5F2EE;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:0 120px;
+
+  position:relative;
+}
+
+.epa-left{
+  width:450px;
+}
+
+.epa-left h2{
+  font-size:62px;
+  margin-bottom:30px;
+}
+
+.epa-left span{
+  color:#874185;
+}
+
+.epa-left p{
+  font-size:18px;
+  line-height:2;
+  color:#555;
+}
+
+.epa-right{
+  width:420px;
+}
+
+.epa-right img{
+  height:420px;
+
+  object-fit:cover;
+
+  border-radius:6px;
+}
+
+.epa-dots{
+  position:absolute;
+
+  right:260px;
+  bottom:40px;
+
+  width:110px;
+  height:110px;
+
+  background-image:
+  radial-gradient(#98EAE3 2px, transparent 2px);
+
+  background-size:15px 15px;
+}

@@ -1,0 +1,51 @@
+.request-layout{
+  display:flex;
+
+  width:1920px;
+  min-height:1080px;
+
+  background:#f5f5f5;
+}
+
+.request-content{
+  flex:1;
+
+  padding:40px;
+}
+
+.request-header{
+  height:64px;
+
+  display:flex;
+  align-items:center;
+
+  margin-bottom:40px;
+}
+
+.request-header h1{
+  font-size:34px;
+}
+
+table{
+  width:100%;
+
+  border-collapse:collapse;
+
+  background:white;
+}
+
+th{
+  background:#874185;
+
+  color:white;
+
+  height:60px;
+}
+
+td{
+  height:58px;
+
+  text-align:center;
+
+  border-bottom:1px solid #eee;
+}

@@ -1,0 +1,62 @@
+.why-section{
+  padding:120px;
+}
+
+.why-section h2{
+  text-align:center;
+
+  font-size:64px;
+
+  margin-bottom:80px;
+}
+
+.why-wrapper{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.why-image{
+  width:360px;
+}
+
+.why-image img{
+  height:420px;
+
+  object-fit:cover;
+
+  border-radius:8px;
+}
+
+.why-cards{
+  width:760px;
+
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+
+  gap:30px;
+}
+
+.card{
+  background:white;
+
+  min-height:260px;
+
+  border-radius:10px;
+
+  padding:40px;
+
+  box-shadow:0 4px 20px rgba(0,0,0,0.05);
+}
+
+.card h3{
+  font-size:28px;
+
+  margin-bottom:20px;
+}
+
+.card p{
+  color:#666;
+
+  line-height:1.9;
+}

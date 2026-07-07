@@ -1,0 +1,192 @@
+.reg3-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.reg3-navbar {
+  width: 100%;
+  height: 64px;
+  background: #874185;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 30px;
+}
+
+.reg3-logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* CARD */
+
+.reg3-card {
+  width: 920px;
+  background: white;
+
+  margin: 50px auto;
+  padding: 35px;
+
+  border-radius: 4px;
+
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* HEADER */
+
+.reg3-header h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.reg3-header p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* STEPS */
+
+.reg3-steps {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.step {
+  flex: 1;
+  height: 48px;
+
+  border: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f5f5f5;
+
+  font-size: 13px;
+  color: #555;
+}
+
+.step.active {
+  background: #874185;
+  color: white;
+}
+
+.step.completed {
+  background: white;
+  color: #874185;
+  font-weight: 600;
+}
+
+/* DOCUMENT CARDS */
+
+.document-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.document-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+
+  padding: 22px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doc-left h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #222;
+}
+
+.doc-left p {
+  font-size: 13px;
+  color: #777;
+}
+
+.doc-right {
+  display: flex;
+  gap: 12px;
+}
+
+/* BUTTONS */
+
+.download-btn {
+  width: 110px;
+  height: 40px;
+
+  border: 1px solid #874185;
+  background: white;
+
+  color: #874185;
+  border-radius: 4px;
+
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.upload-btn {
+  width: 110px;
+  height: 40px;
+
+  border: none;
+  background: #874185;
+
+  color: white;
+  border-radius: 4px;
+
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* FOOTER BUTTONS */
+
+.reg3-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  margin-top: 35px;
+}
+
+.back-btn {
+  width: 180px;
+  height: 45px;
+
+  border: 1px solid #874185;
+  background: white;
+
+  color: #874185;
+
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+.next-btn {
+  width: 180px;
+  height: 45px;
+
+  border: none;
+  background: #874185;
+
+  color: white;
+
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-weight: 600;
+}
