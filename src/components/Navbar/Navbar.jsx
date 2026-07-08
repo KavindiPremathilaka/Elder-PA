@@ -1,11 +1,13 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
 
       <div className="logo">
+        <img src={logo} alt="EPA Logo" width="158" height="65" />
         elder<span>PA</span>
       </div>
 
