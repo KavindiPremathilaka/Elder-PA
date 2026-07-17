@@ -1,6 +1,8 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import { FaGlobe } from "react-icons/fa";
+import { IoChevronDown } from "react-icons/io5";
 
 const Navbar = () => {
   return (  
@@ -23,6 +25,12 @@ const Navbar = () => {
         <Link to="/signin" className="login-link">
           Login
         </Link>
+        
+        <button className="language-btn">
+            <FaGlobe />
+            <span>GB</span>
+            <IoChevronDown />
+          </button>
 
         <button className="career-btn">
           For Careers
