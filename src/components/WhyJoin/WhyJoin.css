@@ -9,13 +9,15 @@
 }
 
 .container {
-  width: 1200px;
-  margin: auto;
+  width: 1440px;
+  height: 840px;
+  opacity: 1;
+
 }
 
 .why-title {
   font-size: 52px;
-  font-weight: 700;
+  font-weight: 700px;
   color: #1f1f1f;
   margin-bottom: 60px;
   text-align: center;

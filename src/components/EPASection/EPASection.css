@@ -1,5 +1,7 @@
 .epa-section{
-  height:520px;
+  width: 1440px;
+  height: 840px;
+  opacity: 1;
 
   background:#F5F2EE;
 
@@ -26,9 +28,14 @@
 }
 
 .epa-left p{
-  font-size:18px;
-  line-height:2;
-  color:#555;
+  font-family: Karla;
+font-weight: 400px;
+font-style: Regular;
+font-size: 24px;
+
+line-height: 125%;
+letter-spacing: 0%;
+
 }
 
 .epa-right{
@@ -36,11 +43,11 @@
 }
 
 .epa-right img{
-  height:420px;
+  width: 498px;
+  height: 498px;
+  opacity: 1;
+  border-radius: 10px;
 
-  object-fit:cover;
-
-  border-radius:6px;
 }
 
 .epa-dots{
